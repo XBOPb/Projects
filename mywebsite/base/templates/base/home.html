@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Моё резюме</title>
+    <link
+    href="{% static '/css/main.css' %}"
+    rel="stylesheet"
+    type="text/css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-image:url('{%static 'images/backgrnd.jpg' %}'); backgorund-repeat: no-repeat; background-size:100%;">
+    <br />
+    <div class="container">
+      <div class="row"></div>
+      <div class="col-md-4">
+        <div class="card card-body">Резюме для "ООО Фабрика решений"</div>
+      </div>
+      <br />
+      <div class="col-md-9">
+        <div class="card card-body">
+          <h3>О себе:</h3>
+          Добрый день, меня зовут Сергей, мне 22 года, я занимаюсь разработкой
+          программ на Python последние несколько месяцев. Основную часть знаний
+          получил на англоязычных курсах "Code with mosh". За время обучения
+          получил навыки по работе с языком Python, SQL (работал в mySQL),
+          базовые знания HTML и CSS. доводилось работать с фреймворком django и
+          bootstrap(собственно, на которых и написан этот сайт). Знаю английский
+          язык на разговорном уровне. Тренируюсь на leetcode в решении задач на
+          Python. В настоящее время работаю над изучением основ JavaScript и
+          совершенствую знания фреймворка Django. Имею огромное желание и
+          интерес в развитии себя как IT-специалиста.
+        </div>
+      </div>
+      <br />
+
+      <div class="row"></div>
+      <div class="col-md-6">
+        <div class="card card-body">
+        <h3>Образование:</h3>
+        Закончил РТУ МИРЭА (Институт радиоэлектроники и аппаратуры) в 2021 году. Имею высшее образование(бакалавриат) по специальности 18.03.01 "Химическая технология"
+      </div>
+      <br/>
+
+      <div class = "row"></div>
+      <div class="col-md-12">
+      <div class="card card-body">
+        <h3>Комментарий:</h3>
+        Я являюсь начинающим специалистом и интересуюсь всеми технологиями, которые предлагает сфера. Быстро усваиваю информацию и стараюсь сразу применять усвоенное на практике. Опыт работы в коммерческих организациях - отсутствует, только опыт нескольких месяцев самостоятельной разработки проектов.
+      </div>
+    </div>
+    <br />
+  </body>
+</html>
